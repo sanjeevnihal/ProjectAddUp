@@ -1,20 +1,30 @@
 
-body{
-  background-color: #181C18;
-  font-family: 'Open Sans', sans-serif;
-  color: #94FF40;
-  margin: 5%;
-}
+/* Common Section */
+
+
 
 
 /* Headings */
 
 h1, h4{
-  margin: 5% auto;
+  margin: 2% auto;
 }
+
+.logo-text{
+  font-size: 3rem;
+}
+
+/* Mobile Version */
 
 
 /* Navigation Bar Section */
+
+body{
+  background-color: #181C18;
+  font-family: 'Open Sans', sans-serif;
+  color: #94FF40;
+  margin: 3%;
+}
 
 .logo-text{
   font-size: 5rem;
@@ -84,3 +94,72 @@ h1, h4{
   margin: 2%;
   font-size: 4rem;
 }
+
+
+/* Desktop Version */
+
+@media (min-width: 1080px) {
+
+body{
+  background-color: #181C18;
+  font-family: 'Open Sans', sans-serif;
+  color: #94FF40;
+  margin: 2% 3%;
+}
+
+.display-container{
+  margin: 7%  0;
+}
+
+.static-text{
+  margin-top: 2%;
+  font-size: 3rem;
+}
+
+.swap-text{
+  margin-top: 2%;
+  font-size: 8rem;
+}
+
+.video-tab{
+  position: absolute;
+  border: 10px solid;
+  border-radius: 3rem;
+  top: 10%;
+  left: 40%;
+  padding: 4% 15%;
+}
+
+.play-icon{
+  margin: 2%;
+}
+
+.short-tabs{
+  position: absolute;
+  border: 10px solid;
+  border-radius: 3rem;
+  top: 10%;
+  left: 82%;
+  padding: 4.5% 3%;
+  margin-left: 2%;
+}
+
+.footer-container{
+  text-align: left;
+  margin-top: 10%;
+}
+
+.footer-container span{
+  font-size: 1rem;
+}
+
+.attribution i{
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+}
+
+
+/* ---------------------------------------------- */
+/* Desktop Section Ends Here */
